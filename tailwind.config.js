@@ -7,6 +7,7 @@ export default {
         bg_primary: "#FFFFFF",
         bg_button: "#3482FF",
         bg_hover_button: "#F89E52",
+        text_primary: "#9E9DA9",
       },
     },
   },

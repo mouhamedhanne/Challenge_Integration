@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../container/Container";
+import Container from "../../container/Container";
 
 export default function Navigation() {
   return (
@@ -7,9 +7,12 @@ export default function Navigation() {
       <nav>
         <div className="flex justify-between items-center mt-6">
           <div>
-            <p className="text-3xl font-black italic text-[#3482FF] cursor-pointer">
+            <h1
+              className="text-3xl font-black italic text-[#3482FF]
+             cursor-pointer"
+            >
               success
-            </p>
+            </h1>
           </div>
           <div>
             <ul className="flex text-[#0B0B0B] ">
