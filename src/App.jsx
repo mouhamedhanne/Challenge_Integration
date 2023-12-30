@@ -5,6 +5,7 @@ import HeroSection from "./components/pageSections/herotop/HeroSection";
 import Partners from "./components/pageSections/partners/Partners";
 import Projects from "./components/pageSections/projects/Projects";
 import Services from "./components/pageSections/services/Services";
+import Testimonial from "./components/pageSections/testimonials/Testimonial";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Partners />
         <Online />
         <Projects />
+        <Testimonial />
       </div>
     </main>
   );

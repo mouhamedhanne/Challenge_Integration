@@ -6,7 +6,7 @@ import Titles from "../../ui/titles/Titles";
 export default function Projects() {
   return (
     <div
-      className="mb-20 px-[4rem] flex items-center justify-center
+      className=" px-[4rem] flex items-center justify-center
      space-x-3 bg-[#E8EBEE] pt-[8rem] pb-[6.3rem]"
     >
       <div className="-mt-[7rem]">
@@ -14,7 +14,7 @@ export default function Projects() {
           className="bg-white pl-8 pr-[13.5rem] py-3 mb-3
          font-bold rounded-md hover:cursor-pointer"
         >
-          UI/UX
+          UI / UX
         </h4>
         <h4
           className="bg-[#F3F7FA] text-gray-600 pl-8 pr-[12rem]
