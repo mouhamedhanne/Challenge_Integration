@@ -85,3 +85,33 @@ export const UxUiThree = () => {
     </div>
   );
 };
+
+export const JamesCooper = () => {
+  return (
+    <img
+      src="https://kitpapa.net/success/wp-content/uploads/2023/03/testimonial_avatar01-jim-fahad-digital-1.png"
+      alt=""
+      width="70px"
+    />
+  );
+};
+
+export const DanielleDino = () => {
+  return (
+    <img
+      src="https://kitpapa.net/success/wp-content/uploads/2023/03/testimonial_avatar02-jim-fahad-digital-1.png"
+      alt=""
+      width="70px"
+    />
+  );
+};
+
+export const JohnSmith = () => {
+  return (
+    <img
+      src="https://kitpapa.net/success/wp-content/uploads/2023/03/testimonial_avatar03-jim-fahad-digital-1.png"
+      alt=""
+      width="70px"
+    />
+  );
+};
