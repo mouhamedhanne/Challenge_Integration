@@ -10,6 +10,9 @@ export default function Titles({ children, title, className }) {
         </h3>
       );
 
+    case "semi-medium":
+      return <h2 className={`text-2xl font-bold ${className}`}>{children}</h2>;
+
     case "medium":
       return <h2 className={`text-3xl font-bold ${className}`}>{children}</h2>;
 

@@ -1,7 +1,9 @@
+import Online from "./components/pageSections/OnlineAgence/Online";
 import Cta from "./components/pageSections/cta/Cta";
 import Navigation from "./components/pageSections/header/Navigation";
 import HeroSection from "./components/pageSections/herotop/HeroSection";
 import Partners from "./components/pageSections/partners/Partners";
+import Projects from "./components/pageSections/projects/Projects";
 import Services from "./components/pageSections/services/Services";
 
 export default function App() {
@@ -13,6 +15,8 @@ export default function App() {
         <Cta />
         <Services />
         <Partners />
+        <Online />
+        <Projects />
       </div>
     </main>
   );

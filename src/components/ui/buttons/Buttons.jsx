@@ -12,7 +12,16 @@ export default function Buttons({ children, theme, className }) {
         </button>
       );
     case "unFilled":
-      return <button>{children}</button>;
+      return (
+        <button
+          className={`text-bg_button bg-white px-10 py-2
+          border border-bg_button rounded-[1.3rem] font-bold
+          hover:text-white hover:bg-bg_button transition
+            duration-300 ease-in-out transform ${className}`}
+        >
+          {children}
+        </button>
+      );
     default:
       return <button>{children}</button>;
   }
