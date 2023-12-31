@@ -34,7 +34,7 @@ const testi = [
 
 export default function Testimonial() {
   return (
-    <div className="bg-[#1E1C1E] mb-20 py-[6.2rem]">
+    <div className="bg-[#1E1C1E] py-[6.2rem]">
       <Container>
         <div className="mb-[6.2rem]">
           <Titles title="large" className="text-white">

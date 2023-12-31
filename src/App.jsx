@@ -1,5 +1,6 @@
 import Online from "./components/pageSections/OnlineAgence/Online";
 import Cta from "./components/pageSections/cta/Cta";
+import Footer from "./components/pageSections/footer/Footer";
 import Navigation from "./components/pageSections/header/Navigation";
 import HeroSection from "./components/pageSections/herotop/HeroSection";
 import Partners from "./components/pageSections/partners/Partners";
@@ -19,6 +20,7 @@ export default function App() {
         <Online />
         <Projects />
         <Testimonial />
+        <Footer />
       </div>
     </main>
   );
