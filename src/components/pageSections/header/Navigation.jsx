@@ -16,7 +16,7 @@ export default function Navigation() {
           </div>
           <div>
             <ul className="flex text-[#0B0B0B] ">
-              <li className="mr-12 cursor-pointer hover:text-[#3482FF]">
+              <li className="mr-12 cursor-pointer text-[#3482FF] hover:text-[#3482FF]">
                 Home
               </li>
               <li className="mr-12 cursor-pointer hover:text-[#3482FF]">
